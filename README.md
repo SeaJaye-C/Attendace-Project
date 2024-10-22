@@ -8,9 +8,8 @@ Through making this project ive become aware of a few issues. installing dlib of
 
 
 #FOR MAC 
-
-For Mac it is reccomended to install dlib on an python enviroment version less than 3.12. From my experience 
-dlib will not properly install for a version higher than 3.11.5. Python 3.11.5 is reccomended for this project as it has shown to be compatiable with all libraries tested. 
+______________________________________
+For Mac it is reccomended to install dlib on an python enviroment version less than 3.12. From my experience dlib will not properly install for a version higher than 3.11.5. Python 3.11.5 is reccomended for this project as it has shown to be compatiable with all libraries tested. 
 
 Assuming your python version works 
 
@@ -20,13 +19,29 @@ pip3 install cmake
 
 pip3 install dlib==19.24.2
 
-after run 
+afterwards 
+
+pip install -r requirements.txt
+
+
+
 
 
 #FOR WINDOWS 
+_______________________________________
+Simiarly, you want to install cmake and dlib prior to installing requirments
+
+pip3 install cmake
+
+#DLIB WINDOWS INSTALLATION
+{
 
 
-If needed please remove dlib line from requirements.txt then install.
+}
+
+
+
+
 
 install respective requirments by either typing
 
