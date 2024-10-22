@@ -1,7 +1,16 @@
 # Attendace Project
- This python project uses facial recogniton to mark attendace in a database
- Through making this project ive become aware of a few issues. 
-installing dlib often is a very buggy process depending on operating system. If needed please remove dlib line from requirements.txt then install.
+ This python project uses deep learning facial recogniton to allow users to mark attendance by logging in with their face. After registering with their name and a picture of them It stores this data into a database. 
+Next time the program is used it will compare their face to previous registered users.
+
+HOW TO INSTALL REQUIRMENTS
+
+Through making this project ive become aware of a few issues. installing dlib often is a very buggy process depending on operating systems it is reccomended you install cmake and dlib by themselves before installing requirements. 
+
+
+
+
+
+If needed please remove dlib line from requirements.txt then install.
 
 install respective requirments by either typing
 
