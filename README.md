@@ -6,8 +6,9 @@ HOW TO INSTALL REQUIRMENTS & RUN PROPERLY
 ----------------------------------------------------------------------------------------------
 Through making this project ive become aware of a few issues. installing dlib often is a very buggy process depending on operating systems it is reccomended you install cmake and dlib by themselves before installing requirements. 
 
+_________________________________________________________________________________________________________
 
-FOR MAC 
+HOW TO INSTALL FOR MAC
 ________________________________________________________________________________________________________________
 For Mac it is reccomended to install dlib on an python enviroment version less than 3.12. From my experience dlib will not properly install for a version higher than 3.11.5. Python 3.11.5 is reccomended for this project as it has shown to be compatiable with all libraries tested. 
 
@@ -25,9 +26,9 @@ pip install -r requirements.txt
 while terminal is opened to the directory of the folder.
 
 
-
-FOR WINDOWS 
 ______________________________________________________________________________________________
+HOW TO INSTALL FOR WINDOWS
+___________________________________________________________________________________________
 Simiarly, you want to install cmake and dlib prior to installing requirments
 
 # Installing CMAKE 
